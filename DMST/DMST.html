@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang web Gia Sư Hà Nội</title>
+    <link rel="stylesheet" href="CSS.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="img/Ăn cắp.png" alt="Gia Sư Hà Nội">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#home">Trang Chủ</a></li>
+                    <li><a href="#about">Giới Thiệu</a></li>
+                    <li><a href="#services">Dịch Vụ</a></li>
+                    <li><a href="#contact">Liên Hệ</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="container">
+            <h1>Chào Mừng Đến Với Dịch Vụ Gia Sư Hà Nội</h1>
+            <p>Chúng tôi cam kết cung cấp giải pháp học tập toàn diện, chất lượng hàng đầu.</p>
+            <a href="#contact" class="btn-primary">Tìm Gia Sư Ngay</a>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <h2>Giới Thiệu</h2>
+            <p>Gia Sư Hà Nội là nơi hội tụ đội ngũ giáo viên giàu kinh nghiệm, tận tâm và yêu nghề.</p>
+            <p>
+                Trung tâm gia sư Fire Fly ra đời với sứ mệnh mang lại một giải pháp học tập hiệu quả, toàn diện và đầy
+                cảm hứng cho học sinh, sinh viên và những ai đang tìm kiếm sự nâng cao trong học vấn. Chúng tôi hiểu
+                rằng mỗi học sinh đều có những nhu cầu, mục tiêu và cách tiếp thu khác nhau. Vì vậy, Trung tâm gia sư
+                Fire Fly không chỉ là nơi bạn có thể tìm được gia sư uy tín, mà còn là không gian học tập giúp khơi dậy
+                niềm đam mê và khám phá tiềm năng của mỗi học viên.
+
+                Với đội ngũ gia sư giàu kinh nghiệm, tận tâm và luôn sẵn sàng đồng hành, Trung tâm gia sư Fire Fly tự
+                hào mang đến cho bạn những bài giảng chất lượng, phương pháp học tập linh hoạt và hiệu quả. Dù bạn cần
+                học thêm các môn học phổ thông, ôn luyện kỳ thi, hay phát triển các kỹ năng sống, Trung tâm gia sư Fire
+                Fly đều có thể đáp ứng mọi nhu cầu. Chúng tôi không chỉ chú trọng đến kiến thức mà còn đặc biệt quan tâm
+                đến việc xây dựng mối quan hệ gắn bó giữa gia sư và học viên, tạo nên một môi trường học tập thân thiện,
+                gần gũi và đầy cảm hứng.
+
+                Trung tâm gia sư Fire Fly cam kết sẽ là người bạn đồng hành đáng tin cậy, giúp mỗi học viên đạt được
+                những bước tiến vững chắc trên con đường học vấn. Với phương châm "Học tập không có giới hạn", chúng tôi
+                tin rằng mọi học sinh, sinh viên đều có thể vượt qua thử thách và vươn tới thành công khi có sự hỗ trợ
+                đúng đắn và tận tình.
+
+            </p>
+        </div>
+    </section>
+
+    <section id="services" class="features">
+        <div class="container">
+            <h2>Dịch Vụ Của Chúng Tôi</h2>
+            <div class="feature-item">
+                <h3>Gia Sư Toán</h3>
+                <p>Cung cấp gia sư chuyên môn cao về Toán.</p>
+                <a href="Giasutoan.html" id="giasutoanLink" class="btn">Chi tiết</a>
+            </div>
+            <div class="feature-item">
+                <h3>Gia Sư Tiếng Anh</h3>
+                <p>Hỗ trợ nâng cao trình độ Tiếng Anh nhanh chóng.</p>
+                <a href="Giasutienganh.html" id="giasutienganhLink" class="btn">Chi tiết</a>
+            </div>
+            <div class="feature-item">
+                <h3>Gia Sư Lý</h3>
+                <p>Đội ngũ gia sư xuất sắc trong bộ môn Lý.</p>
+                <a href="Giasuly.html" id="giasulyLink" class="btn">Chi tiết</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Liên Hệ</h2>
+            <form>
+                <div>
+                    <label for="name">Tên:</label>
+                    <input type="text" id="name" required>
+                </div>
+                <div>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" required>
+                </div>
+                <div>
+                    <label for="message">Ý kiến:</label>
+                    <textarea id="message" required></textarea>
+                </div>
+                <button type="submit">Gửi</button>
+            </form>
+
+            <h3>Những Ý Kiến Đã Gửi</h3>
+            <div class="feedback-container"></div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Gia Sư Hà Nội. Mọi quyền được bảo lưu.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
